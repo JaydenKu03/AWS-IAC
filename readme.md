@@ -20,9 +20,10 @@ These Terraform files serve as an Infrastructure-as-Code (IaC) representation of
 ## What’s Included
 
 - VPC setup (subnets, route tables, IGW, NAT)
-- EC2 instance definitions
+- Security groups
 - RDS configuration
 - ALB setup
-- Security groups
+- EC2 instance definitions
 - Cloud Watch
 - Cloud Trail
+- user_data (for EC2 startup script)
